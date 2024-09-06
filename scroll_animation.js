@@ -8,6 +8,7 @@ ScrollReveal({
 
 //target elements, and specify options to create reveal animations
 ScrollReveal().reveal('.title', { delay: 300, origin: 'bottom' });
+ScrollReveal().reveal('.btn', { delay: 300, origin: 'bottom' });
 ScrollReveal().reveal('.subtitle', { delay: 600, origin: 'top' });
 ScrollReveal().reveal('.description', { delay: 700, origin: 'right' });
 ScrollReveal().reveal('.card', { delay: 500, origin: 'bottom', interval: 100 });
